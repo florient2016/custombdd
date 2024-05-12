@@ -3,3 +3,7 @@
   hosts: all
   collections:
     - rhel.custombdd
+  tasks:
+    - name: Import a role
+      ansible.builtin.import_role:
+        name: bdd
