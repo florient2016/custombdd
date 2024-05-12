@@ -2,4 +2,4 @@
 - name: Playbook used to deploy wordpress and mariadb server
   hosts: all
   collections:
-    - rhel.custombdd.bdd
+    - rhel.custombdd
