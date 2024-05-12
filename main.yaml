@@ -3,4 +3,4 @@
   hosts: all
   gather_facts: yes
   roles:
-    - roles: rhel.custombdd.bdd
+    - role: rhel.custombdd.bdd
