@@ -2,5 +2,6 @@
 - name: Playbook used to deploy wordpress and mariadb server
   hosts: all
   gather_facts: yes
-  collections:
-    - rhel.custombdd
+  become: yes
+  roles:
+    - roles: rhel.custombdd.bdd
